@@ -13,7 +13,7 @@ on:
 jobs:
   
   build:  
-    runs-on: samplerunner
+    runs-on: ubundu -latest
     
     steps:     
       - uses: actions/checkout@v2
